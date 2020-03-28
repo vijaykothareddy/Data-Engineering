@@ -5,8 +5,8 @@ import base64
 s3 = boto3.resource(
                      's3',
                       region_name='ap-southeast-2',
-                      aws_access_key_id='AKIA2FDSKS7JPM5NNF75',
-                      aws_secret_access_key='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'
+                      aws_access_key_id=<>,
+                      aws_secret_access_key=<>
                       )
 ev_lst = []
 def lambda_handler(event, context):
