@@ -8,3 +8,6 @@ Its a good candidate to draw some insights and calculate statistics like avarage
 # What is Problamatic?
 One of the column 'Sub-Issue' does't have any values, we need to manually impute values.  Imputation can be based on context of dataset usage.
 Eg: In my case I collected the Sub-Issue types and populated the column randomly.
+# What i want to achive?
+I will use this data as a source for my data pipelines to address some of the problem statements
+1. Analytics with Steaming data 
