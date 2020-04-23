@@ -37,7 +37,7 @@ AWS toolkit helps to connect to cloud and interact with Lamda functions.
 # How they work
 
 Lambda function invocation based on file creation event in S3,
-[head on to the blog post, to know how these are implemented](https://www.teamdatascience.com/post/how-to-process-simple-data-stream-and-consume-with-lambda)
+* [head on to the blog post, to know how these are implemented](https://www.teamdatascience.com/post/how-to-process-simple-data-stream-and-consume-with-lambda)
 
 Kinesis acts as a buffer for streaming data
-[click the link to see how steam data is stored to a NoSQL store](https://www.teamdatascience.com/post/how-to-write-kinesis-data-stream-to-dynamodb)
+* [click the link to see how steam data is stored to a NoSQL store](https://www.teamdatascience.com/post/how-to-write-kinesis-data-stream-to-dynamodb)
