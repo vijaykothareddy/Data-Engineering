@@ -34,3 +34,7 @@ AWS toolkit helps to connect to cloud and interact with Lamda functions.
 * VS Code
 * Jupiter Note Book
 
+# How they work
+
+Lambda function invocation based on file creation event in S3,
+
