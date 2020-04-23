@@ -6,9 +6,9 @@
   - [Coding](#Coding)
   - [IDE](#IDE)
 * [How they work](#How-they-work)
-  - Lambda and S3
-  - Kinesis and Dynamodb
-  - EC2, RDS
+  - [Lambda and S3](#Lambda-and-s3)
+  - [Kinesis and Dynamodb](#Kinesis-and-Dynamodb)
+  - [EC2, RDS](#EC2,-RDS)
 * [Tools set up method](#Tools-set-up-method)
 # Tools Used
 
@@ -49,11 +49,17 @@ AWS toolkit helps to connect to cloud and interact with Lamda functions.
 
 # How they work
 
+### Lambda and S3
+
 Lambda function invocation based on file creation event in S3,
 * [head on to the blog post, to know how these are implemented](https://www.teamdatascience.com/post/how-to-process-simple-data-stream-and-consume-with-lambda)
 
+### Kinesis and Dynamodb
+
 Kinesis acts as a buffer for streaming data
 * [click the link to see how steam data is stored to a NoSQL store](https://www.teamdatascience.com/post/how-to-write-kinesis-data-stream-to-dynamodb)
+
+### EC2 and RDS
 
 Amazon EC2 is used to spin up a virtual machine with preferred operating system, either you can host you application or run multiple applications by pulling docker images.
 
