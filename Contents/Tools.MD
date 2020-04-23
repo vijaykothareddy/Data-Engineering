@@ -1,10 +1,16 @@
 * [Tools Used](#Tools-Used)
+  - [AWS](AWS-products-used)
+  - Docker
+  - Apache Airflow
+  - Power BI
+  - Coding
+  - IDE
 * [How they work](#How-they-work)
 * [Tools set up method](#Tools-set-up-method)
 # Tools Used
 
 My technical stack decision was made based on the results of researching the job postings.  AWS skills were on demand on most of the job description and it is used widely around the world.
-### AWS products used are,
+### AWS products used
 * Amazon S3
 * Amazon Kinesis Data Streams
 * AWS Lambda
