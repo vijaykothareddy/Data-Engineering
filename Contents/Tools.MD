@@ -12,18 +12,19 @@ My technical stack decision was made based on the results of researching the job
 * Amazon RDS
 * Amazon EC2
 
-Docker is becoming more popular for its easy to use image concept.  Literally you can get any kind of operating environment by, just pulling a container image on to your host OS.
 ### Docker
+Docker is becoming more popular for its easy to use image concept.  Literally you can get any kind of operating environment by, just pulling a container image on to your host OS.
 
-To Orchestrate work flow of task for you pipeline, Apache Airflow offers to build your Dynamic Acyclic Graphs(DAG) of your tasks and its dependencies.
 ### Apache Airflow
+To Orchestrate work flow of task for you pipeline, Apache Airflow offers to build your Dynamic Acyclic Graphs(DAG) of your tasks and its dependencies.
 
+### Power BI
 Microsoft Power BI is the visualization tool, has integrated with wide variety of datasources and you can get the free desktop version to play and devolop visualization.
 Its great tool with in-memory technology for transforming power queries and applying to dataset.
-### Power BI
 
-Python BOTO3 package is integrated with all the AWS resources additionally you can package any class with you AWS lambda processing environment.
 ### Coding
+Python BOTO3 package is integrated with all the AWS resources additionally you can package any class with you AWS lambda processing environment.
+
 
 I use python for data manipulation and to develop custom classes.
 SQL used to interact with relational databases.
