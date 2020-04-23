@@ -1,3 +1,6 @@
+* Tools Used
+* How they work
+* Tools set up method
 # Tools Used
 
 My technical stack decision was made based on the results of researching the job postings.  AWS skills were on demand on most of the job description and it is used widely around the world.
