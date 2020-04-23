@@ -1,5 +1,5 @@
 # Tools Used
-## AWS prodcuts used are,
+### AWS prodcuts used are,
 * Amazon S3
 * Amazon Kinesis Data Streams
 * AWS Lambda
@@ -7,13 +7,13 @@
 * Amazon RDS
 * Amazon EC2
 
-## Docker
-## Apache Airflow
-## Power BI
-## Coding
+### Docker
+### Apache Airflow
+### Power BI
+### Coding
 * Python
 * SQL
-## CLI
+### CLI
 * VS Code
 * Jupiter Note Book
 
