@@ -1,10 +1,10 @@
 * [Tools Used](#Tools-Used)
   - [AWS](#AWS-products-used)
-  - Docker
-  - Apache Airflow
-  - Power BI
-  - Coding
-  - IDE
+  - [Docker](#Docker)
+  - [Apache Airflow](#Apache-Airflow)
+  - [Power BI](#Power-BI)
+  - [Coding](#Coding)
+  - [IDE](#IDE)
 * [How they work](#How-they-work)
 * [Tools set up method](#Tools-set-up-method)
 # Tools Used
