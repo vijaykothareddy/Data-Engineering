@@ -45,10 +45,9 @@ Data Pipe Lines with AWS
 
 # Used Tools
 - [Explain which tools do you use and why](Contents/Tools.MD)
-- How do they work (don't go too deep into details, but add links)
-- Why did you choose them
-- How did you set them up
-
+- [How do they work]((Contents/Tools.MD))
+- [Why I choose them](Contents/Tools.MD)
+- [Tools Setup](Contents/Tools.MD)
 ## Connect
 ## Buffer
 ## Processing
