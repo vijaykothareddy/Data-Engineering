@@ -6,6 +6,9 @@
   - [Coding](#Coding)
   - [IDE](#IDE)
 * [How they work](#How-they-work)
+  - Lambda and S3
+  - Kinesis and Dynamodb
+  - EC2, RDS
 * [Tools set up method](#Tools-set-up-method)
 # Tools Used
 
