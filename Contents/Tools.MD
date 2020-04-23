@@ -1,7 +1,7 @@
 # Tools Used
 
-My technical stack decision was made based on the results of researching the job postings.  AWS skills were on demad on most of the job description and it is used widely around the world.
-### AWS prodcuts used are,
+My technical stack decision was made based on the results of researching the job postings.  AWS skills were on demand on most of the job description and it is used widely around the world.
+### AWS products used are,
 * Amazon S3
 * Amazon Kinesis Data Streams
 * AWS Lambda
@@ -15,15 +15,15 @@ Docker is becoming more popular for its easy to use image concept.  Literally yo
 To Orchestrate work flow of task for you pipeline, Apache Airflow offers to build your Dynamic Acyclic Graphs(DAG) of your tasks and its dependencies.
 ### Apache Airflow
 
-Microsoft Power BI is the vizualization tool, has integrated with wide variety of datasources and you can get the free desktop version to play and devolop visualization.
+Microsoft Power BI is the visualization tool, has integrated with wide variety of datasources and you can get the free desktop version to play and devolop visualization.
 Its great tool with in-memory technology for transforming power queries and applying to dataset.
 ### Power BI
 
-Python BOTO3 package is integrated with all the AWS resources additionaly you can package any class with you AWS lambda processing environment.
+Python BOTO3 package is integrated with all the AWS resources additionally you can package any class with you AWS lambda processing environment.
 ### Coding
 
 I use python for data manipulation and to develop custom classes.
-SQL used to interact with realtional databases.
+SQL used to interact with relational databases.
 
 * Python
 * SQL
