@@ -1,4 +1,4 @@
-* [Tools Used](#Tools Used)
+* [Tools Used](#Tools-Used)
 * How they work
 * Tools set up method
 # Tools Used
