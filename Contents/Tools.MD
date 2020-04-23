@@ -41,3 +41,7 @@ Lambda function invocation based on file creation event in S3,
 
 Kinesis acts as a buffer for streaming data
 * [click the link to see how steam data is stored to a NoSQL store](https://www.teamdatascience.com/post/how-to-write-kinesis-data-stream-to-dynamodb)
+
+Amazon EC2 is used to turn up a virtual machine with preferred operating system, either you can host you application or run multiple applications by pulling containerized application.
+
+Amazon RDS is a SAAS service where you can run relation database management systems like SQL Server, Oracle and MySQL
