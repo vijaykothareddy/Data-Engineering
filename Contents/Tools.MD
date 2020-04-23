@@ -45,3 +45,24 @@ Kinesis acts as a buffer for streaming data
 Amazon EC2 is used to spin up a virtual machine with preferred operating system, either you can host you application or run multiple applications by pulling docker images.
 
 Amazon RDS is a SAAS service where you can run relation database management systems like SQL Server, Oracle and MySQL
+
+# Tools set up methods
+
+AWS stack are configured using management console.
+One should create a AWS account, which is a root user.
+Best practice is to create an IAM user and assign required privileges, prefer to use IAM user for interacting with AWS resources.  
+
+* python code to connect
+```python
+import boto3
+s3 = boto3.resource(
+                     's3',
+                      region_name='ap-southeast-2',
+                      aws_access_key_id=<>,
+                      aws_secret_access_key=<>
+                      )
+```
+<dl>
+<dt> you should mask AWS access key's before uploading scripts to internet ( blogs, git and other), once exposed any one can access your cloud account </dt>
+</dl>
+
