@@ -21,9 +21,16 @@ Its great tool with in-memory technology for transforming power queries and appl
 
 Python BOTO3 package is integrated with all the AWS resources additionaly you can package any class with you AWS lambda processing environment.
 ### Coding
+
+I use python for data manipulation and to develop custom classes.
+SQL used to interact with realtional databases.
+
 * Python
 * SQL
-### CLI
+### IDE
+
+There are many Integrated Development environments, I use VS code for python developments and you can also download AWS toolkit.
+AWS toolkit helps to connect to cloud and interact with Lamda functions.
 * VS Code
 * Jupiter Note Book
 
