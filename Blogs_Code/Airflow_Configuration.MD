@@ -58,6 +58,10 @@ root@vijay-dell:/mnt/e/airflow/workspace# source venv/bin/activate
 (venv) root@vijay-dell:/mnt/e/airflow/workspace# pip install apache-airflow
 ```
 ## Creating Airflow home
+
+Tricky part is ` cd /mnt ` you will be able to see the windows drive patitions and make a directory for Airflow
+so that all the Airflow configuration stays at dedicated directory
+
 ```console
 (venv) root@vijay-dell:/mnt/e/airflow/workspace# mkdir airflow_home
 (venv) root@vijay-dell:/mnt/e/airflow/workspace# export AIRFLOW_HOME=`pwd`/airflow_home
@@ -70,6 +74,9 @@ root@vijay-dell:/mnt/e/airflow/workspace# source venv/bin/activate
 airflow.cfg  logs  unittests.cfg
 ```
 ## Initialize Airflow DB
+
+You can also configure MySQL or Postgres as back end database for your Airflow web application.
+by default, SQL Lite will be configured.  It will generate .mdb file in your home directory.
 ```console
 (venv) root@vijay-dell:/mnt/e/airflow/workspace# airflow initdb
 Start Airflow Webserver
