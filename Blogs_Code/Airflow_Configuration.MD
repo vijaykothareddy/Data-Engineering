@@ -36,10 +36,11 @@ update Ubuntu with latest packages
 kotharv@vijay-dell:~$ sudo apt-get update
 kotharv@vijay-dell:~$ sudo apt-get upgrade
 kotharv@vijay-dell:~$ sudo su
-
+```
 install `pip` for downloding python modules
 `virtualenv` to create a virtualspace for Airflow 
 
+```console
 root@vijay-dell:/home/kotharv# apt install python-pip
 root@vijay-dell:/home/kotharv# sudo apt install python3-pip
 root@vijay-dell:/home/kotharv# apt install virtualenv
