@@ -14,6 +14,8 @@ This can also be achived on any kind of Linux flavor running platform( may be sl
   - [Start Airflow Scheduler](#Start-Airflow-Scheduler)
   
 ## Enable Linux Subsystem
+### windows > Turn Windows features on or off
+![](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Contents/win_feature.PNG)
 
 ## Enable the highlighted feature
 
