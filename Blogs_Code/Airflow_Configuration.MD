@@ -29,10 +29,16 @@ Launching app take you to bash terminal, run below commands
 
 
 ## Prerequisites
+
+update Ubuntu with latest packages
+
 ```console
 kotharv@vijay-dell:~$ sudo apt-get update
 kotharv@vijay-dell:~$ sudo apt-get upgrade
 kotharv@vijay-dell:~$ sudo su
+
+install `pip` for downloding python modules
+`virtualenv` to create a virtualspace for Airflow 
 
 root@vijay-dell:/home/kotharv# apt install python-pip
 root@vijay-dell:/home/kotharv# sudo apt install python3-pip
