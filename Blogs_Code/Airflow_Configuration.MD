@@ -1,7 +1,7 @@
 # Apache Airflow Configuration
 
-I configured Airflow on windows desktop by enabling the Linux subsystem and dowloading the Ubuntu app from Microsoft store.  
-This can also be achived on any kind of Linux flavor running platform( may be slight change in commands)
+I configured Airflow on windows desktop by enabling the Linux subsystem and downloading the Ubuntu app from Microsoft store.  
+This can also be achieved on any kind of Linux flavor running platform( may be slight change in commands)
 ## Table of Contents
 
   - [Enable Linux Subsystem](#Enable-Linux-Subsystem)
@@ -37,8 +37,8 @@ kotharv@vijay-dell:~$ sudo apt-get update
 kotharv@vijay-dell:~$ sudo apt-get upgrade
 kotharv@vijay-dell:~$ sudo su
 ```
-install `pip` for downloding python modules
-`virtualenv` to create a virtualspace for Airflow 
+install `pip` for downloading python modules
+`virtualenv` to create a virtual space for Airflow 
 
 ```console
 root@vijay-dell:/home/kotharv# apt install python-pip
@@ -59,7 +59,7 @@ root@vijay-dell:/mnt/e/airflow/workspace# source venv/bin/activate
 ```
 ## Creating Airflow home
 
-Tricky part is ` cd /mnt ` you will be able to see the windows drive patitions and make a directory for Airflow
+Tricky part is run  ` cd /mnt `  you will be able to see the windows drive partitions and make a directory for Airflow, 
 so that all the Airflow configuration stays at dedicated directory
 
 ```console
@@ -76,13 +76,17 @@ airflow.cfg  logs  unittests.cfg
 ## Initialize Airflow DB
 
 You can also configure MySQL or Postgres as back end database for your Airflow web application.
-by default, SQL Lite will be configured.  It will generate .mdb file in your home directory.
+
+By default, SQL Lite will be configured.  It will generate .mdb file in your home directory.
 ```console
 (venv) root@vijay-dell:/mnt/e/airflow/workspace# airflow initdb
 Start Airflow Webserver
 (venv) root@vijay-dell:/mnt/e/airflow/workspace# airflow webserver
 ```
 ## Start Airflow Scheduler
+
+When you create a new DAG, start scheduler to update Airflow dashboard with latest jobs.
+
 ```console
 (venv) root@vijay-dell:/mnt/e/airflow/workspace# airflow scheduler
 ```
