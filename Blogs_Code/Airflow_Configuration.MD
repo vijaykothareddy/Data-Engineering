@@ -8,7 +8,7 @@ This can also be achived on any kind of Linux flavor running platform( may be sl
   - [Download ubuntu from Microsoft store](#Download-ubuntu-from-Microsoft-store)
   - [Prerequisites](#Prerequisites)
   - [Virtual Environment](#Virtual-Environment)
-  - [Airflow Installation](#Airflow Installation)
+  - [Airflow Installation](#Airflow-Installation)
   - [Creating Airflow home](#Creating-Airflow-home)
   - [Initialize Airflow DB](#Initialize-Airflow-DB)
   - [Start Airflow Scheduler](#Start-Airflow-Scheduler)
