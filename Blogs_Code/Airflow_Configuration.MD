@@ -18,14 +18,14 @@ This can also be achived on any kind of Linux flavor running platform( may be sl
 
 ![](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Contents/win_feature.PNG)
 
-### Enable the highlighted feature
+enable the highlighted feature
 
 
 ## Download ubuntu from Microsoft store
 
+![](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Contents/ubuntu.PNG)
 
-
-Launching app take you to bash terminal, run below command to update packages
+Launching app take you to bash terminal, run below commands
 
 
 ## Prerequisites
