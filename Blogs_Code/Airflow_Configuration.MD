@@ -73,6 +73,10 @@ so that all the Airflow configuration stays at dedicated directory
 (venv) root@vijay-dell:/mnt/e/airflow/workspace/airflow_home# ls
 airflow.cfg  logs  unittests.cfg
 ```
+Above commands with set your environment variable *AIRFLOW_HOME*.
+
+
+Running `airflow version` command will generate config files in airflow home directory, it's kind of a test case to test your environment variable.
 ## Initialize Airflow DB
 
 You can also configure MySQL or Postgres as back end database for your Airflow web application.
