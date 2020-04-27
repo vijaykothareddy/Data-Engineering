@@ -37,14 +37,14 @@ Data Pipe Lines with AWS
 
 
 # The Data Set
-- [Explain the data set](Contents/Dataset.MD)
-- Why did you choose it?
-- What do you like about it?
-- What is problematic?
-- What do you want to do with it?
+- [About my dataset](Contents/Dataset.MD)
+- [Why did I choose it?](Contents/Dataset.MD)
+- [What do you like about it?](Contents/Dataset.MD)
+- [What is problematic?](Contents/Dataset.MD)
+- [What do you want to do with it?](Contents/Dataset.MD)
 
 # Used Tools
-- [Explain which tools do you use and why](Contents/Tools.MD)
+- [Tools I used](Contents/Tools.MD)
 - [How do they work]((Contents/Tools.MD))
 - [Why I choose them](Contents/Tools.MD)
 - [Tools Setup](Contents/Tools.MD)
