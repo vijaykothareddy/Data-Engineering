@@ -11,4 +11,6 @@
 ## Buffer
 ## Processing
 ## Storage
+
+I used AWS S3 and Dynamodb for storage purpose.
 ## Visualization
