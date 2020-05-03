@@ -12,5 +12,5 @@
 ## Processing
 ## Storage
 
-I used AWS S3 and Dynamodb for storage purpose.
+Storage solution depends on the purpose.  I stored my CSV data sets on to AWS S3 
 ## Visualization
