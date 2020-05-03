@@ -1,7 +1,7 @@
 * [Connect](#Connect)
 * Buffer
 * Processing
-* Storage
+* [Storage](#Storage)
 * Vizualization
 
 
