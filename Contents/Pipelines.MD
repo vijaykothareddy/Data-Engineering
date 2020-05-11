@@ -8,4 +8,27 @@ Steam Processing is analyzing the data in real time.  Log from application serve
 I created a pipe line to visualize credit cards complaints stream.
 
 ![](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Contents/Stream_Processing.jpg)
+
+Let me take you through the solution,
+
+** Connect
+
+I manually crated a python script to upload JSON file to AWS S3 bucket, which acts a my connect stream data source.
+
+** Process
+
+AWS lambda function is invoked for S3 bucket object cerated event.  File content will be transferred as record to Kinesis stream.
+
+** Buffer
+
+Kinesis Data Stream acts as a buffer for real time data and Kinesis firehouse is my consumer, which acts as  data transformation service and delivers data to Amazon Redshift.
+
+** Storage
+
+Data is eventually stored in a Redshift, which is connected analytics tools.
+
+** Visualization
+
+Power BI desktop has been configured to AWS redshift data source to answer some of the analytics queries for business.
+
 * Batch Processing
