@@ -7,5 +7,5 @@ Steam Processing is analyzing the data in real time.  Log from application serve
 
 I created a pipe line to visualize credit cards complaints stream.
 
-![](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Contents/win_feature.PNG)
+![](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Contents/Stream Processing.JPG)
 * Batch Processing
