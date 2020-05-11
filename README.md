@@ -1,8 +1,3 @@
-
-------------------------------------------------------------------
-!!! Rename this file to README.md and upload it to your GitHub !!!
-------------------------------------------------------------------
-
 # Title Of Your Project
 Data Pipe Lines with AWS
 
