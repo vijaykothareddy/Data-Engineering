@@ -15,7 +15,7 @@ This Project has mainly classified into three phases,
   - Third Phase : Documentation for the project and grouping the code used in various phases of development
 
   #### With what data are you working 
-  I am working with credit card complaints data and nuances of dataset has been explained in my blog
+  I am working with credit card complaints data and nuances of [dataset](#the-data-set) has been explained in my [blog](https://www.teamdatascience.com/post/data-sets)
   - What tools are you using
   - What are you doing with these tools
   - Once you are finished add the conclusion here as well
