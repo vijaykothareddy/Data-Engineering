@@ -1,24 +1,30 @@
-# Title Of Your Project
+# Data Engineering with AWS
 Data Pipe Lines with AWS
 
 # Introduction & Goals
-- Introduce your project to the reader
-- Orient this section on the Table of contents
-- Write this like an executive summary
-  - With what data are you working
+- The project is about building data pipeline for Credit Card Complaints data.  It takes the general [blueprint](https://github.com/andkret/Cookbook/blob/master/sections/01-Introduction.md#my-data-science-platform-blueprint) as a baseline for selecting the tool set,  I choose AWS based on industry research.
+
+
+This Project has mainly classified into three phases,
+
+  - Initial phase : Research on the industries about technical stack that are used in Data Engineering.
+
+    Choosing your data set.
+
+  - Second Phase : Designing and developing the pipeline with tools and data source.
+  - Third Phase : Documentation for the project and grouping the code used in various phases of development
+
+  #### With what data are you working 
+  I am working with credit card complaints data and nuances of dataset has been explained in my blog
   - What tools are you using
   - What are you doing with these tools
   - Once you are finished add the conclusion here as well
+
 
 # Contents
 
 - [The Data Set](#the-data-set)
 - [Used Tools](#used-tools)
-  - [Connect](#connect)
-  - [Buffer](#buffer)
-  - [Processing](#processing)
-  - [Storage](#storage)
-  - [Visualization](#visualization)
 - [Pipelines](#pipelines)
   - [Stream Processing](#stream-processing)
     - [Storing Data Stream](#storing-data-stream)
@@ -43,11 +49,6 @@ Data Pipe Lines with AWS
 - [How do they work]((Contents/Tools.MD))
 - [Why I choose them](Contents/Tools.MD)
 - [Tools Setup](Contents/Tools.MD)
-## Connect
-## Buffer
-## Processing
-## Storage
-## Visualization
 
 # Pipelines
 - Explain the pipelines for processing that you are building
