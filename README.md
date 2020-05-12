@@ -2,22 +2,35 @@
 Data Pipe Lines with AWS
 
 # Introduction & Goals
-- The project is about building data pipeline for Credit Card Complaints data.  It takes the general [blueprint](https://github.com/andkret/Cookbook/blob/master/sections/01-Introduction.md#my-data-science-platform-blueprint) as a baseline for selecting the tool set,  I choose AWS based on industry research.
+- The project is about building data pipeline for Credit Card Complaints data.  It takes the general [blueprint](https://github.com/andkret/Cookbook/blob/master/sections/01-Introduction.md#my-data-science-platform-blueprint) as a baseline for selecting data sources, processing and buffer framework, storage and visualization tools.
 
 
 This Project has mainly classified into three phases,
 
   - Initial phase : Research on the industries about technical stack that are used in Data Engineering.
 
-    Choosing your data set.
+    Choosing your data source.
 
   - Second Phase : Designing and developing the pipeline with tools and data source.
   - Third Phase : Documentation for the project and grouping the code used in various phases of development
 
   #### With what data are you working 
   I am working with credit card complaints data and nuances of [dataset](#the-data-set) has been explained in my [blog](https://www.teamdatascience.com/post/data-sets)
-  - What tools are you using
-  - What are you doing with these tools
+  
+  #### Tools that i used are 
+
+  I choose managed services provided by Amazon, which are server less environments and offer greater capability at scale.
+    - AWS(Lambda, kinesis, Kinesis Firehouse, Redshift, Dynamodb, S3 )
+    - Docker
+    - Power BI
+    - Apache Airflow
+    - IDE and coding
+  
+  #### What are you doing with these tools
+
+  Data pipelines in this project uses, *Lambda* as a processing environment.  To handle streaming data *Kinesis* will come to rescue and they acts as a buffer too.  Eventually data is stored in warehouses, NoSql or file system storage solution.
+
+
   - Once you are finished add the conclusion here as well
 
 
