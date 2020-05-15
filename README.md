@@ -67,12 +67,11 @@ This Project has mainly classified into three phases,
 # Pipelines
 - Explain the pipelines for processing that you are building
 - Go through your development and add your source code
-
-## Stream Processing
-### Storing Data Stream
-### Processing Data Stream
-## Batch Processing
-## Visualizations
+- [Stream Processing](Contents/Pipelines.MD)
+  - [Storing Data Stream](Contents/Pipelines.MD)
+  - [Processing Data Stream](Contents/Pipelines.MD)
+- [Batch Processing](Contents/Pipelines.MD)
+- [Visualizations](Contents/Pipelines.MD)
 
 # Demo
 - You could add a demo video here
