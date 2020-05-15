@@ -18,13 +18,8 @@ This Project has mainly classified into three phases,
   #### Tools that i used are 
 
   I choose managed services provided by Amazon, which are server less environments and offer greater capability at scale,
-  ##### AWS(Lambda, kinesis, Kinesis Firehouse, Redshift, Dynamodb, S3 )
-  ##### Docker
-  ##### Power BI
-  ##### Apache Airflow
-  ##### IDE and coding
-  
-  #### What are you doing with these tools
+![](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Contents/tools_used.jpg)
+
 
   Data pipelines in this project uses, *Lambda* as a processing environment.  To handle streaming data *Kinesis* will come to rescue and they acts as a buffer too.  Eventually data is stored in warehouses, NoSql or file system storage solution.
 
