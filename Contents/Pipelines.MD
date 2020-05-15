@@ -1,3 +1,7 @@
+* [Pipelines](#Pipelines)
+  - [Stream Processing](#stream-processing)
+  - [Batch Processing](#Batch-processing)
+  - [Visualization]
 # Pipelines
 
 Data Analytics is derived form various data sources and intermediate transformations.  Pipeline is created with *connect, storage, process, buffer and visualization* elements used to achieve organizational data goal.
@@ -13,7 +17,7 @@ Let me take you through the solution,
 
 ### Connect
 
-I manually crated a python script to upload JSON file to AWS S3 bucket, which acts a my connect stream data source.
+I manually crated a python script to upload JSON file to AWS S3 bucket, which acts as my connect stream data source.
 
 ### Process
 
@@ -25,10 +29,10 @@ Kinesis Data Stream acts as a buffer for real time data and Kinesis firehouse is
 
 ### Storage
 
-Data is eventually stored in a Redshift, which is connected analytics tools.
+Data is eventually stored in a Redshift, which is connected to analytics tools.
 
 ### Visualization
 
-Power BI desktop has been configured to AWS redshift data source to answer some of the analytics queries for business.
+Power BI desktop has been configured to AWS redshift data source to answer some of the analytical queries for business.
 
 ## Batch Processing
