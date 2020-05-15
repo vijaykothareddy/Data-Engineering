@@ -20,12 +20,19 @@ This Project has mainly classified into three phases,
   Quick snapshot of tools used in this project captured in below picture,
   ![](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Contents/tools_used.jpg)
 
+  #### What i did
+
   I choose managed services provided by Amazon, which are server less environments and offer greater capability at scale,
 
-  Data pipelines in this project uses, **Lambda** as a processing environment.  To handle streaming data **Kinesis** will come to rescue and they acts as a buffer too.  Eventually data is stored in warehouses, NoSql or file system storage solution.
-  more details on [Used Tools](Contents/Tools.MD)
+  Data pipelines in this project uses, **Lambda** as a processing environment.  To handle streaming data **Kinesis** will come to rescue and they acts as a buffer too.  
+  
+  Eventually data is stored in warehouses, NoSql or file system storage solution.
 
-  - Once you are finished add the conclusion here as well
+  Visualization tools or analytics products are connected to these datasources and used for data analytics.
+
+  #### Conclusion
+
+  Basically this projects has been designed by assuming the huge data size, so that the cloud resources are economically scaled.
 
 
 # Contents
