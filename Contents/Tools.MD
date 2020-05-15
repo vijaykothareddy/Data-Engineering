@@ -9,7 +9,7 @@
   - [Lambda and S3](#Lambda-and-s3)
   - [Kinesis and Dynamodb](#Kinesis-and-Dynamodb)
   - [EC2, RDS](#EC2,-RDS)
-* [Tools set up method](#Tools-set-up-method)
+* [Tools set up method](#Tools-set-up-methods)
 # Tools Used
 
 My technical stack decision was made based on the results of researching the job postings.  AWS skills were on demand on most of the job description and it is used widely around the world.
