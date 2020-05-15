@@ -2,29 +2,27 @@
 Data Pipe Lines with AWS
 
 # Introduction & Goals
-- The project is about building data pipeline for Credit Card Complaints data.  It takes the general [blueprint](https://github.com/andkret/Cookbook/blob/master/sections/01-Introduction.md#my-data-science-platform-blueprint) as a baseline for selecting data sources, processing and buffer framework, storage and visualization tools.
-
+The project is about building data pipeline on cloud serverless platform.  It takes the general [blueprint](https://github.com/andkret/Cookbook/blob/master/sections/01-Introduction.md#my-data-science-platform-blueprint) as a reference for selecting data sources, processing and buffer framework, storage and visualization tools.
 
 This Project has mainly classified into three phases,
 
-  - Initial phase : Research on the industries about technical stack that are used in Data Engineering.
-
-    Choosing your data source.
-
+  - Initial phase : Dataset selection, based on the industry research.
   - Second Phase : Designing and developing the pipeline with tools and data source.
   - Third Phase : Documentation for the project and grouping the code used in various phases of development
 
-  #### With what data are you working 
-  I am working with credit card complaints data and nuances of [dataset](#the-data-set) has been explained in my [blog](https://www.teamdatascience.com/post/data-sets)
+  #### About my data set
+
+  I narrowed down to work on banking industry data and the process of my research has been explained the [blog post](https://www.teamdatascience.com/post/dba-focus-to-work-as-data-engineer), 
+  credit card complaints data and nuances of [dataset](#the-data-set) has been explained in my [blog](https://www.teamdatascience.com/post/data-sets)
   
   #### Tools that i used are 
 
-  I choose managed services provided by Amazon, which are server less environments and offer greater capability at scale.
-    - AWS(Lambda, kinesis, Kinesis Firehouse, Redshift, Dynamodb, S3 )
-    - Docker
-    - Power BI
-    - Apache Airflow
-    - IDE and coding
+  I choose managed services provided by Amazon, which are server less environments and offer greater capability at scale,
+  ##### AWS(Lambda, kinesis, Kinesis Firehouse, Redshift, Dynamodb, S3 )
+  ##### Docker
+  ##### Power BI
+  ##### Apache Airflow
+  ##### IDE and coding
   
   #### What are you doing with these tools
 
