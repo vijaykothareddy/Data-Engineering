@@ -1,7 +1,9 @@
 * [Pipelines](#Pipelines)
   - [Stream Processing](#stream-processing)
+    - [Processing Data Stream](#processing-data-stream)
+    - [Storing Data Stream](#storing-data-stream)
   - [Batch Processing](#Batch-processing)
-  - [Visualization]
+  - [Visualization](#visualization)
 # Pipelines
 
 Data Analytics is derived form various data sources and intermediate transformations.  Pipeline is created with *connect, storage, process, buffer and visualization* elements used to achieve organizational data goal.
@@ -19,7 +21,7 @@ Let me take you through the solution,
 
 I manually crated a python script to upload JSON file to AWS S3 bucket, which acts as my connect stream data source.
 
-### Process
+### Process Data Stream
 
 AWS lambda function is invoked for S3 bucket object cerated event.  File content will be transferred as record to Kinesis stream.
 
@@ -27,12 +29,13 @@ AWS lambda function is invoked for S3 bucket object cerated event.  File content
 
 Kinesis Data Stream acts as a buffer for real time data and Kinesis firehouse is my consumer, which acts as  data transformation service and delivers data to Amazon Redshift.
 
-### Storage
+### Storage Data Stream
 
 Data is eventually stored in a Redshift, which is connected to analytics tools.
 
-### Visualization
-
-Power BI desktop has been configured to AWS redshift data source to answer some of the analytical queries for business.
 
 ## Batch Processing
+
+## Visualization
+
+Power BI desktop has been configured to AWS redshift data source to answer some of the analytical queries for business.
