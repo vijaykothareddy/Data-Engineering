@@ -12,14 +12,19 @@ This Project has mainly classified into three phases,
 
   #### About my data set
 
-  I narrowed down to work on banking industry data and the process of my research has been explained the [blog post](https://www.teamdatascience.com/post/dba-focus-to-work-as-data-engineer), 
-  credit card complaints data and nuances of [dataset](#the-data-set) has been explained in my [blog](https://www.teamdatascience.com/post/data-sets)
-  
-  #### Tools that i used are 
+  I researched as mentioned in the [blog post](https://www.teamdatascience.com/post/dba-focus-to-work-as-data-engineer) results of it helped to narrow down my option to the banking industry.
 
-  Quick snapshot of tools used in this project captured in below picture,
+
+  I selected credit card complaints data and selection process has been explained in my [blog](https://www.teamdatascience.com/post/data-sets)
+  
+  #### Tools that I used 
+
+  Quick snapshot of tools used in this project are captured in below picture,
+
+
   ![](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Contents/tools_used.jpg)
 
+*Amazon Web Services, Docker for Amazon Machine Images, Airflow on Ubuntu, Python IDE and BI tools*
   #### What i did
 
   I choose managed services provided by Amazon, which are server less environments and offer greater capability at scale,
