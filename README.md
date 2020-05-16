@@ -65,8 +65,6 @@ This Project has mainly classified into three phases,
 - [Tools Setup](Contents/Tools.MD)
 
 # Pipelines
-- Explain the pipelines for processing that you are building
-- Go through your development and add your source code
 - [Stream Processing](Contents/Pipelines.MD)
   - [Storing Data Stream](Contents/Pipelines.MD)
   - [Processing Data Stream](Contents/Pipelines.MD)
