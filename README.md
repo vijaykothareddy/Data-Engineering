@@ -22,7 +22,7 @@ This Project has mainly classified into three phases,
   Quick snapshot of tools used in this project are captured in below picture,
 
 
-  ![](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Contents/tools_used.jpg)
+  ![](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Images/tools_used.jpg)
 
 *Amazon Web Services, Docker for Amazon Machine Images, Airflow on Ubuntu, Python IDE and BI tools*
   #### What i did

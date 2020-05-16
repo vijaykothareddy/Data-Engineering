@@ -16,14 +16,14 @@ This can also be achieved on any kind of Linux flavor running platform( may be s
 ## Enable Linux Subsystem
 ### windows > Turn Windows features on or off
 
-![](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Contents/win_feature.PNG)
+![](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Images/win_feature.PNG)
 
 enable the highlighted feature
 
 
 ## Download ubuntu from Microsoft store
 
-![](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Contents/ubuntu.PNG)
+![](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Images/ubuntu.PNG)
 
 Launching app take you to bash terminal, run below commands
 
