@@ -3,7 +3,7 @@ I used credit card complaints data set for my project. It has 18 columns and 80k
 You can find the dataset here, [Credit Card Complaints]( https://data.world/dataquest/bank-and-credit-card-complaints)
 
 have a look at quick view of dataset,
-![](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Contents/data_view.PNG)
+![](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Images/data_view.PNG)
 # Why i choose it?
 When I started to peruse Data Engineering, I did a research on industry based on jobs available on job portal.  Banking and Telecommunication are the top two sectors posting jobs locally.  It should be relevant to do hands on project relating to these industries and that made made me to narrow down the data set.
 # What i like in the dataset?
