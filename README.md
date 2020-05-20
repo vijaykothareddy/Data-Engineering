@@ -83,7 +83,7 @@ Write a comprehensive conclusion.
 
 # Follow Me On
 
-Linkedin  [linkedin.com/in/kvbr]
+[Linkedin]   (linkedin.com/in/kvbr)
 
 # Appendix
 
