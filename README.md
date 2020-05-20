@@ -83,8 +83,8 @@ Write a comprehensive conclusion.
 
 # Follow Me On
 
-<i class="fab fa-linkedin"></i>
-[Linkedin](linkedin.com/in/kvbr)
+
+[my Linkedin profile](https://www.linkedin.com/in/kvbr/)
 
 # Appendix
 
