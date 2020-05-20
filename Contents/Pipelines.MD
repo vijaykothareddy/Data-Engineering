@@ -39,3 +39,5 @@ Data is eventually stored in a Redshift, which is connected to analytics tools.
 ## Visualization
 
 Power BI desktop has been configured to AWS redshift data source to answer some of the analytical queries for business.
+
+![](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Images/visual.gif)
