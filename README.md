@@ -82,7 +82,8 @@ Write a comprehensive conclusion.
 - What were the biggest challenges
 
 # Follow Me On
-Add the link to your LinkedIn Profile
+
+Linkedin  [linkedin.com/in/kvbr]
 
 # Appendix
 
