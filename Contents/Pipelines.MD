@@ -36,6 +36,10 @@ Data is eventually stored in a Redshift, which is connected to analytics tools.
 
 ## Batch Processing
 
+To eliminate the overhead of normalization the data has been stored to DynamoDB.  A daily batch process will load the data into SQL database for visualization or predictive analytics.
+
+![](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Images/daily_batch.jpg)
+
 ## Visualization
 
 Power BI desktop has been configured to AWS redshift data source to answer some of the analytical queries for business.
