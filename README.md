@@ -2,12 +2,20 @@
 Data Pipe Lines with AWS
 
 # Introduction & Goals
-The project is about building data pipeline on cloud serverless platform.  It takes the general [blueprint](https://github.com/andkret/Cookbook/blob/master/sections/01-Introduction.md#my-data-science-platform-blueprint) as a reference for selecting data sources, processing and buffer framework, storage and visualization tools.
+
+I have been using on-premise IT infrastructure platform for storing and processing the Data.
+
+To address real time analytics business problem,  I utilized AWS serverless architecture to design and develop data pipeline.
+
+
+This project took the general [blueprint](https://github.com/andkret/Cookbook/blob/master/sections/01-Introduction.md#my-data-science-platform-blueprint) as a reference to
+
+identify the tools required at regular intervale of pipeline based on kind of data Volume, Velocity and Variation.
 
 This Project has mainly classified into three phases,
 
-  - Initial phase : Dataset selection, based on the industry research.
-  - Second Phase : Designing and developing the pipeline with tools and data source.
+  - Initial phase : Data Set selection, based on the industry research.
+  - Second Phase : Designing and developing the pipeline with tools.
   - Third Phase : Documentation for the project and grouping the code used in various phases of development
 
   #### About my data set
@@ -27,13 +35,13 @@ This Project has mainly classified into three phases,
 *Amazon Web Services, Docker for Amazon Machine Images, Airflow on Ubuntu, Python IDE and BI tools*
   #### What i did
 
-  I choose managed services provided by Amazon, which are server less environments and offer greater capability at scale,
+  I utilized managed services provided by Amazon Web Services, which offer greater capability at scale,
 
   Data pipelines in this project uses, **Lambda** as a processing environment.  To handle streaming data **Kinesis** will come to rescue and they acts as a buffer too.  
   
-  Eventually data is stored in warehouses, NoSql or file system storage solution.
+  Eventually data is stored in warehouse, NoSql database or file system type of storage solutions.
 
-  Visualization tools or analytics products are connected to these datasources and used for data analytics.
+  Visualization tools or analytics products are connected to these data sources and used for data analytics.
 
   #### Conclusion
 
@@ -52,7 +60,7 @@ This Project has mainly classified into three phases,
 
 
 # The Data Set
-- [About my dataset](Contents/Dataset.MD)
+- [About my Data Set](Contents/Dataset.MD)
 - [Why did I choose it?](Contents/Dataset.MD)
 - [What do you like about it?](Contents/Dataset.MD)
 - [What is problematic?](Contents/Dataset.MD)
@@ -78,6 +86,8 @@ This Project has mainly classified into three phases,
 # Conclusion
 Write a comprehensive conclusion.
 - How did this project turn out
+
+
 - What major things have you learned
 - What were the biggest challenges
 
