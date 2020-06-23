@@ -7,9 +7,7 @@ I have been using on-premise IT infrastructure platform for storing and processi
 
 To address real time analytics business problem,  I utilized AWS serverless architecture to design and develop data pipeline.
 
-
 This project took the general [blueprint](https://github.com/andkret/Cookbook/blob/master/sections/01-Introduction.md#my-data-science-platform-blueprint) as a reference to
-
 identify the tools required at regular intervale of pipeline based on kind of data Volume, Velocity and Variation.
 
 This Project has mainly classified into three phases,
@@ -97,7 +95,7 @@ I learnt about
   - How the scaling of resources play major role in planning
 #### Challenges that I Faced
 
-  ##### NoSQL
+  ##### NoSQL 
   I picked DynamoDB as one of my storage option. Data modelling is quite opposite to traditional RDBMS models, Amazon re invent videos and blogs helped me to understand about DynamoDB.
   ##### Python Package Deployment
   To use any Python package other than BOTO3, required libraries need to packaged with Lambda function.  Figuring out the right way to deploy Python packages is a challenging task.
