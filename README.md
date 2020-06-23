@@ -85,26 +85,27 @@ This Project has mainly classified into three phases,
 
 # Conclusion
 Write a comprehensive conclusion.
-- I created end-to-end data pipeline to deliver real time analytics with data available to BI system in minutes of latency.
+- I created end-to-end data pipeline to deliver real time analytics with data available to BI systems with latency in seconds.
 
 
 #### Things I learned 
 I learnt about 
   - Different AWS Services like Lambda, Redshift, DynamoDB and other
   - User roles and policies
-  - How to encode and decode the data while dealing with multiple AWS services.
-  - How to integrate services with Python using BOTO3.
-#### Challenges that I Faces
+  - How to encode and decode the data while dealing with multiple AWS services
+  - How to integrate services with Python using BOTO3
+  - How the scaling of resources play major role in planning
+#### Challenges that I Faced
 
-  - NoSQL
+  ##### NoSQL
   I picked DynamoDB as one of my storage option. Data modelling is quite opposite to traditional RDBMS models, Amazon re invent videos and blogs helped me to understand about DynamoDB.
-  - Python Package
-  To use any Python package other than BOTO3 need to packaged with Lambda function.  
+  ##### Python Package Deployment
+  To use any Python package other than BOTO3, required libraries need to packaged with Lambda function.  Figuring out the right way to deploy Python packages is a challenging task.
 
 # Follow Me On
 
 
-[my Linkedin profile](https://www.linkedin.com/in/kvbr/)
+[My Linkedin profile](https://www.linkedin.com/in/kvbr/)
 
 # Appendix
 
