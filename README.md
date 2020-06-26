@@ -5,27 +5,31 @@ Data Pipe Lines with AWS
 
 I have been using on-premise IT infrastructure platform for storing and processing the Data.
 
-To address real time analytics business problem,  I utilized AWS serverless architecture to design and develop data pipeline.
+To address real time analytics with big data,  I utilized **AWS serverless** architecture to design and develop data pipeline.
 
 This project took the general [blueprint](https://github.com/andkret/Cookbook/blob/master/sections/01-Introduction.md#my-data-science-platform-blueprint) as a reference to
-identify the tools required at regular intervale of pipeline based on kind of data Volume, Velocity and Variation.
+identify the tools required at regular intervals of pipeline design.
 
 This Project has mainly classified into three phases,
 
-  - Initial phase : Data Set selection, based on the industry research.
-  - Second Phase : Designing and developing the pipeline with tools.
-  - Third Phase : Documentation for the project and grouping the code used in various phases of development
+  **Initial phase :** Data Set selection, based on the industry research.
+  **Second Phase :** Designing and developing the pipeline with tools.
+  **Third Phase :** Documentation for the project and grouping the code used in various phases of development.
 
   #### About my data set
 
-  I researched as mentioned in the [blog post](https://www.teamdatascience.com/post/dba-focus-to-work-as-data-engineer) results of it helped to narrow down my option to the banking industry.
+  I conducted a research to choose the type of industry and banking was my preference.
+  
+  refer to my 
+  [blog post](https://www.teamdatascience.com/post/dba-focus-to-work-as-data-engineer) 
+  for a quick idea, when you are in dilemma of data set selection.
 
 
   I selected credit card complaints data and selection process has been explained in my [blog](https://www.teamdatascience.com/post/data-sets)
   
   #### Tools that I used 
 
-  Quick snapshot of tools used in this project are captured in below picture,
+  Quick snapshot of tools used in this project are captured below,
 
 
   ![](https://github.com/vijaykothareddy/Data-Engineering/blob/master/Images/tools_used.jpg)
@@ -33,11 +37,11 @@ This Project has mainly classified into three phases,
 *Amazon Web Services, Docker for Amazon Machine Images, Airflow on Ubuntu, Python IDE and BI tools*
   #### What i did
 
-  I utilized managed services provided by Amazon Web Services, which offer greater capability at scale,
+  I utilized managed services provided by Amazon Web Services, which offer greater capability at scale and optimal performance,
 
   Data pipelines in this project uses, **Lambda** as a processing environment.  To handle streaming data **Kinesis** will come to rescue and they acts as a buffer too.  
   
-  Eventually data is stored in warehouse, NoSql database or file system type of storage solutions.
+  Eventually data is stored in **Redshift, DynamoDB or S3 type** of storage solutions.
 
   Visualization tools or analytics products are connected to these data sources and used for data analytics.
 
